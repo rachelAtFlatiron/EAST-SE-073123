@@ -1,22 +1,17 @@
-# SENG-LIVE-073123 Phase 3: Python
+# Python Data Structures
 
-## Phase Level Objectives
+## Learning Goals
 
-- [ ] Understand the principles of Python as a language including principles of object oriented programming
-- [ ] Understand the characteristics of a relational database
-- [ ] Perform CRUD actions on a database using SQLAlchemy & Alembic
-- [ ] Design an API to handle CRUD actions
-- [ ] Communicate with an API using different HTTP verbs
-- [ ] Create and present a project with a React frontend and a database-backed API backend
-
-
-| No. | Lecture | Videos | Starter | Solution |
-| --- | ------- | ------ | ------- | -------- |
-| 1. | Python Fundamentals | | | |
-| 2. | Python Data Structures | | | |
-| 3. | Object Oriented Programming in Python | | | |
-| 4. | OOP 2: Class Methods & Class Variables | | | |
-| 5. | SQL Fundamentals & Table Relations | | | |
-| 6. | Object-Relational Mapping | | | |
-| 7. | SQLAlchemy & Alembic | | | |
-| 8. | SQLAlchemy Associations | | | |
+- Demonstrate Sequence types (`list`, `tuple`, `range`)
+- Review the different uses for each Sequence type
+- Demonstrate standard methods for accessing, updating and deleting values in Lists
+- Review Tuples
+- Review Ranges 
+- Demonstrate Mapping types with Dictionaries
+- Demonstrate standard methods for accessing, updating and deleting values in Dictionaries
+- Demonstrate Set types with set and frozen set
+- Demonstrate `for` and `while` loops
+- Demonstrate list compressions 
+- Stretch Goals
+    - Demonstrate Generator expressions 
+    - Demonstrate how to create a `switch` using a Dictionary
