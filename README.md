@@ -1,34 +1,22 @@
-# Python Fundamentals
+# SENG-LIVE-073123 Phase 3: Python
 
-## Learning Goals
+## Phase Level Objectives
 
-- [ ] Review an introduction to Python and phase trajectory 
-- [ ] Demonstrate Python package management with `pip`
-- [ ] Demonstrate debugging in Python with `pipenv shell`, `print`, and `ipdb`
-- [ ] Review some Python data types (`str`, `int`, `float`, `bool`, `None`)
-- [ ] Demonstrate Python conditionals and control flow
-- [ ] Demonstrate Python functions
-- [ ] Review Python variable scope and the `global` keyword
-- [ ] Review Python error messages and exceptions 
-- [ ] Demonstrate handling errors with `try:` and `except:`
+- [ ] Understand the principles of Python as a language including principles of object oriented programming
+- [ ] Understand the characteristics of a relational database
+- [ ] Perform CRUD actions on a database using SQLAlchemy & Alembic
+- [ ] Design an API to handle CRUD actions
+- [ ] Communicate with an API using different HTTP verbs
+- [ ] Create and present a project with a React frontend and a database-backed API backend
 
----
 
-![image](./trajectory.png)
-
-| Python                                                                                               | Javascript                                                                                   |
-|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| None                      | undefined/null    |
-| &&                        | and               |
-| \|\|                      | or                |
-| == (no type checking)     | === (type checking) |
-| True/False                | true/false           |
-| ipdb.set_trace()          | debugger          |
-| snake_case                | camelCase         |
-| f"{interpolate}"    | \`${interpolate}\`       |
-| "true result" if "condition" else "default"   | "condition" ? "true result" : "default result"   |
-| if...elif...else    | if...else if...else    |
-| try...except... | try...catch...  |
-| def:                     | function{}         |
-| If a function has params you have to pass in args for those params (otherwise you can set a default) | If a function has params JS will not throw errors if you do not pass in args for said params |
-| Variables need to immediately be assigned a value when created | Variables do not need to be immediately assigned a value when created |
+| No. | Lecture | Videos | Starter | Solution |
+| --- | ------- | ------ | ------- | -------- |
+| 1. | Python Fundamentals | | | |
+| 2. | Python Data Structures | | | |
+| 3. | Object Oriented Programming in Python | | | |
+| 4. | OOP 2: Class Methods & Class Variables | | | |
+| 5. | SQL Fundamentals & Table Relations | | | |
+| 6. | Object-Relational Mapping | | | |
+| 7. | SQLAlchemy & Alembic | | | |
+| 8. | SQLAlchemy Associations | | | |
