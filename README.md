@@ -12,8 +12,8 @@
 
 | No. | Lecture | Videos | Starter | Solution |
 | --- | ------- | ------ | ------- | -------- |
-| 1. | Python Fundamentals | | | |
-| 2. | Python Data Structures | | | |
+| 1. | Python Fundamentals | [Video](https://youtu.be/E5Uf1wqZI0s) | [Starter](https://github.com/rachelAtFlatiron/EAST-SE-073123-Phase-3-Python/tree/01_starter) | [Demo](https://github.com/rachelAtFlatiron/EAST-SE-073123-Phase-3-Python/tree/01_demo) |
+| 2. | Python Data Structures | [Video](https://youtu.be/StJy_A0eztY) | [Starter](https://github.com/rachelAtFlatiron/EAST-SE-073123-Phase-3-Python/tree/02_starter) | [Demo](https://github.com/rachelAtFlatiron/EAST-SE-073123-Phase-3-Python/tree/02_demo) |
 | 3. | Object Oriented Programming in Python | | | |
 | 4. | OOP 2: Class Methods & Class Variables | | | |
 | 5. | SQL Fundamentals & Table Relations | | | |
