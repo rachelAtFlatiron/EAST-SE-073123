@@ -8,9 +8,9 @@ from lib.cat import *
 
 
 # Instances of the pet classes
-rose = Cat('rose', 11, 'domestic longhair', 'sweet', 'rose.jpg', True)
-cookie = Pet('cookie', 1, 'Dachshund', 'hyper', 'cookie.jpg')
-princess_grace = Pet('princess grace', 7, 'domestic longhair', 'affectionate', 'gracy.png')
+rose = Cat('rose', 11, 'domestic longhair', True)
+cookie = Pet('cookie', 1, 'Dachshund')
+princess_grace = Pet('princess grace', 7, 'domestic longhair')
 
 
 
