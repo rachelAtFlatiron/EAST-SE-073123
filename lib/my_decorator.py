@@ -24,7 +24,7 @@ def higher_order_two():
     def play(pet):
         print(f'{pet} has played')
     return [brushed,play]
-test = higher_order_two()[1]("Momo")
+#test = higher_order_two()[1]("Momo")
 
 #✅ 4. Demonstrate how to create a decorator
 # Create a function that:
@@ -34,16 +34,24 @@ test = higher_order_two()[1]("Momo")
 
 #✅ Decorator (coupon_calculator)
 def coupon_calculator(func):
+    print(f'in coupon calculator')
     def print_price(price):
-        print(f'Initial Price={func(price)}')
+        return(f'in print_price Initial Price={func(price)}') #final result
     return print_price
+
 #✅ Inner Function
 #✅ Callback function to Calculate New Price
 @coupon_calculator #coupon_calculator(calculate_price)
 def calculate_price(price):
+    print(f'in calculate price')
     return f'{price/2}'
 
+# invoke calculate price
+# calculate price is passed into coupon calculator
+# coupon calculator invokes calculate price
+# coupon calculator invokes inner function (print_price)
+# print_price is returned as final value
 
 
-calculate_price(8)
+print(f'invoke calculateprice {calculate_price(8)}')
 ipdb.set_trace()
