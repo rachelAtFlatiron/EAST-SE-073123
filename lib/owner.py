@@ -4,6 +4,7 @@ CONN = sqlite3.connect('lib/resources.db')
 CURSOR = CONN.cursor()
 
 class Owner:
+    pass 
     # ✅ 12. Create table
 
     # ✅ 13. Drop table
