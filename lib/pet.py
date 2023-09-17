@@ -6,7 +6,7 @@ CONN = sqlite3.connect('lib/resources.db')
 CURSOR = CONN.cursor()
  
 class Pet:
-
+    pass 
     # ✅ 1. Add "__init__" with "name", "age", "species", "owner_id" and "id"
 
     # ✅ 2. Create table
