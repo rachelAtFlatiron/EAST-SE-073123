@@ -1,13 +1,14 @@
-# SQL Fundamentals & Table Relations
+# Object-Relational Mapping
 
 ## Learning Goals
 
-- Explain why we use databases
-- Explain what SQL is and why we use it
-- Explain the differences between a database, server, and API
-- Explain the differences between rows and columns in a table
-- Explain the differences between a Foreign key and a Primary key
-- Explain what a join table is
-- Explain what it means to seed a database
-- Observe using SQL to communicate with a database
-- Explain what an ORM is
+- Demonstrate configuring an application to connect with sqlite3
+- Demonstrate a create table method 
+- Review preventative measures for SQL injection
+- Demonstrate a save and create methods  
+    - Save => Persist created instance to DB
+    - Create => Instantiate / persist created instance to DB, return new instance 
+- Demonstrate query methods to find and retrieve resources 
+- Stretch Goal
+    - Make a “create_and_find_by” member
+    - Make “update” and “delete” member
