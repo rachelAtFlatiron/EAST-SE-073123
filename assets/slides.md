@@ -1,8 +1,7 @@
 ---
 
 title: "01_components_props"
-output:
-  theme: white
+theme: white
 
 --- 
 
@@ -23,6 +22,7 @@ output:
     - Make a “create_and_find_by” member
     - Make “update” and “delete” member
 
+
 --- 
 
 <img src="ORM.png" />
@@ -42,9 +42,4 @@ output:
 
 - later on won't have to write by hand - will be using SQLAlchemy
 - we are writing them today just to learn how it works
-</aside>
-
----
-
-<aside class="notes">
 </aside>

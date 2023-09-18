@@ -3,6 +3,11 @@
 from owner import Owner, CONN, CURSOR
 from pet import Pet, CONN, CURSOR
 
+import os
+dir_path = os.path.dirname(os.path.realpath(__file__))
+db_path = os.path.join(dir_path, "/resources.db")
+
+
 pet1 = Pet("Fluffy", 2, "Labrador")
 pet2 = Pet("Whiskers", 1, "Siamese")
 pet3 = Pet("Buddy", 3, "Golden Retriever")
